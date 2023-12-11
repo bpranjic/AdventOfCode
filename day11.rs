@@ -40,7 +40,7 @@ fn distances(galaxies: Vec<Vec<i64>>, rows: Vec<i64>, cols: Vec<i64>, gap: i64) 
 
 
 fn main() -> io::Result<()> {
-    let input = fs::read_to_string("input2.txt")?;
+    let input = fs::read_to_string("input.txt")?;
     let v: Vec<&str> = input.split("\n").collect();
     let mut lines:Vec<Vec<char>> = vec![];
     let mut galaxies: Vec<Vec<i64>> = vec![];
